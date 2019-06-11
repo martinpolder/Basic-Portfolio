@@ -1,14 +1,38 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
     
 }
 
+html {
+    height: 100%;
+
+
+}
+
+body { 
+    background-image: url(/assets/images/background.png);
+
+}
 
 #title {
     background-color:#4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 130%;
+    float: left;
+    width: 40%;
+
+}
+
+#nav {
+    float: right;
+}
+
+#pagebody {
+    margin: ;
+    width: 960px;
 
 }
