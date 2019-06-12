@@ -12,27 +12,71 @@ html {
 
 }
 
+header {
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
 body { 
-    background-image: url(/assets/images/background.png);
+    background-image: url(../images/background.png);
+    margin: 0;
+    padding 0;
 
 }
+
+
+
 
 #title {
     background-color:#4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 130%;
+    font-size: 200%;
     float: left;
-    width: 40%;
+  
+
 
 }
 
-#nav {
+nav {
+   clear: both;
     float: right;
+    position: sticky;
+    top: 0;
+    background-color: brown;
+
+    
 }
 
-#pagebody {
-    margin: ;
+nav ul 
+
+    {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    
+}
+
+
+
+
+.pagebody {
+   background-color: green;
+    margin: 0 auto 0 auto;
     width: 960px;
 
+}
+
+#bodytitle {
+    background-color: beige;
+}
+
+p {
+    background-color: bisque;
 }
