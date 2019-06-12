@@ -1,3 +1,5 @@
+/* Total Page Settings */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +14,7 @@ html {
 
 }
 
+/* Long white bar */
 
 header {
     background-color: #ffffff;
@@ -20,6 +23,8 @@ header {
     
 }
 
+
+/* Container of title and nav */
 
 #headcont {
    
@@ -30,6 +35,7 @@ header {
     overflow: hidden;
 }
 
+/* sets the background of the page */
 
 body { 
 
@@ -39,6 +45,7 @@ body {
     padding 0;
 
 }
+
 
 
 
@@ -54,10 +61,9 @@ body {
     
     
     
-  
-
-
 }
+
+/* nav bar properties */
 
 #topnav {
     float: right;
@@ -84,7 +90,7 @@ body {
 }
 
 
-
+/* index page information */
 
 .pagebody {
     clear: both;
@@ -132,6 +138,9 @@ p {
    
 }
 
+
+/* contact page information */
+
 form {
    clear:both;
     font-family: Arial, Helvetica, sans-serif;
@@ -156,6 +165,8 @@ form {
 
 
 
+/* portfolio page */
+
 .portfolio {
     clear: both;
     margin: 0 auto 0 auto;
@@ -176,7 +187,7 @@ table {
 .images {
     
     width: 350px;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     
 }
@@ -184,12 +195,13 @@ table {
 
 #hangman {
     position: absolute;
-    width: 350px;
+    width: 310px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 10px;
     margin-top: 200px;
+    margin-left: 20px;
     opacity: 0.8;
    
    
@@ -197,49 +209,56 @@ table {
 
 #RPGgame {
     position: absolute;
-    width: 350px;
+    width: 310px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 10px;
     margin-top: 200px;
+    margin-left: 20px;
     opacity: 0.8;
 }
 
 #triviagame {
     position: absolute;
-    width: 350px;
+    width: 310px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 10px;
     margin-top: 200px;
+    margin-left: 20px;
     opacity: 0.8;
 }
 
 #widget {
     position: absolute;
-    width: 350px;
+    width: 310px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 10px;
     margin-top: 200px;
+    margin-left: 20px;
     opacity: 0.8;
 }
 
 #rock {
     position: absolute;
-    width: 350px;
+    width: 310px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 10px;
     margin-top: 200px;
+    margin-left: 20px;
     opacity: 0.8;
 }
 
 
+
+
+/* footer */
 
  footer {
     clear: both;
