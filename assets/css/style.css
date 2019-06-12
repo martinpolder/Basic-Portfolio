@@ -13,13 +13,15 @@ html {
 }
 
 header {
-    background-color: blanchedalmond;
-    height: 100px;
-    width: 960px;
+   
+    background-color: white;
+    height: 110px;
     margin: 0 auto 0 auto;
+    overflow: hidden;
 }
 
 body { 
+   
     background-image: url(../images/background.png);
     margin: 0;
     padding 0;
@@ -30,36 +32,40 @@ body {
 
 
 #title {
+    float: left;
     background-color:#4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
-    float: left;
+    text-align: center;
+    padding: 40px;
+    margin-left: 215px;
+    
+    
   
 
 
 }
 
-nav {
-   clear: both;
+#topnav {
     float: right;
-    position: sticky;
-    top: 0;
-    background-color: brown;
+    padding: 40px;
+    margin-right: 215px;
 
     
 }
 
-nav ul 
 
-    {
+#topnav ul {
+    clear: both;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+#topnav li {
     float: left;
+    padding: 10px;
     
 }
 
@@ -67,7 +73,9 @@ nav li {
 
 
 .pagebody {
-   background-color: green;
+    clear: both;
+  
+    background-color: green;
     margin: 0 auto 0 auto;
     width: 960px;
 
@@ -75,6 +83,8 @@ nav li {
 
 #bodytitle {
     background-color: beige;
+    padding: 40px;
+    font-size: 200%;
 }
 
 p {
