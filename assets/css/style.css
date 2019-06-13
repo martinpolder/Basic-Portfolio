@@ -78,6 +78,9 @@ body {
     
 }
 
+li a{
+    text-decoration: none;
+}
 
 #topnav ul {
     clear: both;
@@ -91,8 +94,7 @@ body {
     float: left;
     padding: 10px;
    
-    
-}
+    }
 
 
 /* index page information */
@@ -160,9 +162,15 @@ form {
  {
      margin-top: 10px;
      padding-top: 10px;
+     
  }
 
- #button {
+input[type=text]{
+    
+    width: 80%;
+}
+ 
+#button {
      background-color: #4aaaa5;
      color: white;
      padding: 5px;
